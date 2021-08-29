@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated kokoworld -->
+      <package
+            uri="http://www.example.org/kokoworld"
+            class="kokoworld.KokoworldPackage"
+            genModel="model/kokoworld.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated kokolog -->
+      <package
+            uri="http://www.example.org/kokolog"
+            class="kokoworld.kokolog.KokologPackage"
+            genModel="model/kokolog.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated kokolog -->
+      <package
+            uri="http://www.example.org/kokoworld"
+            class="kokoworld.kokoworld.KokoworldPackage"
+            genModel="model/kokolog.genmodel"/>
+   </extension>
+</plugin>

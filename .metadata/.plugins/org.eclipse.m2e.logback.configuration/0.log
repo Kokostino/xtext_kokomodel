@@ -1,0 +1,53 @@
+2021-08-29 16:28:19,634 [Worker-48: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: koko.logmodel:koko.logmodel.feature:1.0.0-SNAPSHOT @ C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.feature\pom.xml.
+2021-08-29 16:28:19,842 [Worker-48: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: koko.logmodel:koko.logmodel.feature:1.0.0-SNAPSHOT @ C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.feature\pom.xml.
+2021-08-29 16:28:19,844 [Worker-48: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: koko.logmodel:koko.logmodel.parent:1.0.0-SNAPSHOT @ C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\pom.xml.
+2021-08-29 16:28:19,911 [Worker-48: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: koko.logmodel:koko.logmodel.feature:1.0.0-SNAPSHOT @ C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.feature\pom.xml.
+2021-08-29 16:28:20,005 [Worker-48: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: koko.logmodel:koko.logmodel.repository:1.0.0-SNAPSHOT @ C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.repository\pom.xml.
+2021-08-29 16:28:20,212 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:28:20,212 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.repository\src\main\resources
+2021-08-29 16:28:20,269 [Worker-48: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: koko.logmodel:koko.logmodel.target:1.0.0-SNAPSHOT @ C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.target\pom.xml.
+2021-08-29 16:28:20,474 [Worker-48: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: koko.logmodel:koko.logmodel:1.0.0-SNAPSHOT @ C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel\pom.xml.
+2021-08-29 16:28:20,479 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:28:20,480 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel\src\main\resources
+2021-08-29 16:28:20,481 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:28:20,481 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel\src\test\resources
+2021-08-29 16:28:21,973 [Worker-48: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: koko.logmodel:koko.logmodel.tests:1.0.0-SNAPSHOT @ C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.tests\pom.xml.
+2021-08-29 16:28:21,998 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:28:21,998 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.tests\src\main\resources
+2021-08-29 16:28:21,999 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:28:21,999 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.tests\src\test\resources
+2021-08-29 16:28:22,160 [Worker-48: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: koko.logmodel:koko.logmodel.ide:1.0.0-SNAPSHOT @ C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.ide\pom.xml.
+2021-08-29 16:28:22,168 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:28:22,168 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.ide\src\main\resources
+2021-08-29 16:28:22,169 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:28:22,169 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.ide\src\test\resources
+2021-08-29 16:28:22,288 [Worker-48: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: koko.logmodel:koko.logmodel.ui:1.0.0-SNAPSHOT @ C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.ui\pom.xml.
+2021-08-29 16:28:22,309 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:28:22,309 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.ui\src\main\resources
+2021-08-29 16:28:22,310 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:28:22,310 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.ui\src\test\resources
+2021-08-29 16:28:23,329 [Worker-48: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: koko.logmodel:koko.logmodel.ui.tests:1.0.0-SNAPSHOT @ C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.ui.tests\pom.xml.
+2021-08-29 16:28:23,360 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:28:23,361 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.ui.tests\src\main\resources
+2021-08-29 16:28:23,362 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:28:23,362 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.ui.tests\src\test\resources
+2021-08-29 16:33:20,457 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:33:20,457 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel\src\main\resources
+2021-08-29 16:33:20,459 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:33:20,459 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel\src\test\resources
+2021-08-29 16:33:20,473 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:33:20,473 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.tests\src\main\resources
+2021-08-29 16:33:20,474 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:33:20,474 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.tests\src\test\resources
+2021-08-29 16:33:20,478 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:33:20,478 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.ide\src\main\resources
+2021-08-29 16:33:20,479 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:33:20,479 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.ide\src\test\resources
+2021-08-29 16:33:20,482 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:33:20,482 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.ui\src\main\resources
+2021-08-29 16:33:20,482 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:33:20,482 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.ui\src\test\resources
+2021-08-29 16:33:20,500 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:33:20,500 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.ui.tests\src\main\resources
+2021-08-29 16:33:20,500 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'windows-1252' encoding to copy filtered resources.
+2021-08-29 16:33:20,500 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dherschmann\Documents\koko\koko.logmodel.parent\koko.logmodel.ui.tests\src\test\resources

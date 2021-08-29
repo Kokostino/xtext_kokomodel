@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: koko.logmodel.tests
+Bundle-ManifestVersion: 2
+Bundle-Name: koko.logmodel.tests
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: koko.logmodel.tests; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: koko.logmodel,
+ kokoworld,
+ org.junit.jupiter.api;bundle-version="[5.1.0,6.0.0)",
+ org.eclipse.xtext.testing,
+ org.eclipse.xtext.xbase.testing
+Bundle-RequiredExecutionEnvironment: JavaSE-11
