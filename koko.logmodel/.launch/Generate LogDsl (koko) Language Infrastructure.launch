@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.emf.mwe2.launch.Mwe2LaunchConfigurationType">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/koko.logmodel"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+<listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.debug.core.ATTR_REFRESH_SCOPE" value="${working_set:&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;resources&gt;&#10;&lt;item path=&quot;/koko.logmodel.parent&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/koko.logmodel&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/koko.logmodel.ide&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/koko.logmodel.ui&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/koko.logmodel.target&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/koko.logmodel.feature&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/koko.logmodel.repository&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/koko.logmodel.tests&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/koko.logmodel.ui.tests&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/koko.logmodel.tests&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/koko.logmodel.ui.tests&quot; type=&quot;4&quot;/&gt;&#10;;&lt;/resources&gt;}"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.eclipse.emf.mwe2.launch.runtime.Mwe2Launcher"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="koko.logmodel.GenerateLogDsl"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="koko.logmodel"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Xmx512m"/>
+</launchConfiguration>
