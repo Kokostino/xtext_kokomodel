@@ -3,11 +3,9 @@
 package kokoworld.kokolog.impl;
 
 import java.util.Collection;
-
 import kokoworld.kokolog.BaseEntity;
 import kokoworld.kokolog.KokologPackage;
 import kokoworld.kokolog.LogDocument;
-
 import kokoworld.kokoworld.impl.DocumentImpl;
 
 import org.eclipse.emf.common.notify.NotificationChain;

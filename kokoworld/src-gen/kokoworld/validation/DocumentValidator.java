@@ -4,6 +4,10 @@
  */
 package kokoworld.validation;
 
+import kokoworld.ImportContainer;
+import kokoworld.Member;
+import org.eclipse.emf.common.util.EList;
+
 /**
  * A sample validator interface for {@link kokoworld.Document}.
  * This doesn't really do anything, and it's not a real EMF artifact.
@@ -14,4 +18,8 @@ public interface DocumentValidator {
 	boolean validate();
 
 	boolean validateName(String value);
+
+	boolean validateMembers(EList<Member> value);
+
+	boolean validateImportcontainer(ImportContainer value);
 }

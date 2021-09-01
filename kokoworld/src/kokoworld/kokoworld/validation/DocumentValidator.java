@@ -4,6 +4,10 @@
  */
 package kokoworld.kokoworld.validation;
 
+import kokoworld.kokoworld.ImportContainer;
+import kokoworld.kokoworld.Member;
+import org.eclipse.emf.common.util.EList;
+
 
 /**
  * A sample validator interface for {@link kokoworld.kokoworld.Document}.
@@ -15,4 +19,8 @@ public interface DocumentValidator {
 	boolean validate();
 
 	boolean validateName(String value);
+
+	boolean validateMembers(EList<Member> value);
+
+	boolean validateImportcontainer(ImportContainer value);
 }

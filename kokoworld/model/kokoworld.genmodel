@@ -11,6 +11,23 @@
   <genPackages prefix="Kokoworld" disposableProviderFactory="true" ecorePackage="kokoworld.ecore#/">
     <genClasses ecoreClass="kokoworld.ecore#//Document">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kokoworld.ecore#//Document/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kokoworld.ecore#//Document/members"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kokoworld.ecore#//Document/importcontainer"/>
+    </genClasses>
+    <genClasses ecoreClass="kokoworld.ecore#//Member"/>
+    <genClasses image="false" ecoreClass="kokoworld.ecore#//INamedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kokoworld.ecore#//INamedElement/name"/>
+    </genClasses>
+    <genClasses ecoreClass="kokoworld.ecore#//ImportContainer">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kokoworld.ecore#//ImportContainer/imports"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference kokoworld.ecore#//ImportContainer/document"/>
+    </genClasses>
+    <genClasses ecoreClass="kokoworld.ecore#//Import">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kokoworld.ecore#//Import/item"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference kokoworld.ecore#//Import/importcontainer"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="kokoworld.ecore#//IDescribable">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kokoworld.ecore#//IDescribable/description"/>
     </genClasses>
   </genPackages>
 </genmodel:GenModel>

@@ -33,16 +33,20 @@ public class LogDslGrammarAccess extends AbstractElementFinder.AbstractGrammarEl
 		private final Assignment cBaseentitiesAssignment_3 = (Assignment)cGroup.eContents().get(3);
 		private final RuleCall cBaseentitiesBaseEntityParserRuleCall_3_0 = (RuleCall)cBaseentitiesAssignment_3.eContents().get(0);
 		
+		////import bla as kokoworld
+		////This is the start rule
 		//LogDocument returns LogDocument:
 		//    {LogDocument}
 		//    'LogPackage' name=QName
+		////    importcontainer=ImportContainer
 		//    baseentities+=BaseEntity
 		//    ;
 		@Override public ParserRule getRule() { return rule; }
 		
-		//{LogDocument}
-		//'LogPackage' name=QName
-		//baseentities+=BaseEntity
+		//    {LogDocument}
+		//    'LogPackage' name=QName
+		////    importcontainer=ImportContainer
+		//    baseentities+=BaseEntity
 		public Group getGroup() { return cGroup; }
 		
 		//{LogDocument}
@@ -57,7 +61,8 @@ public class LogDslGrammarAccess extends AbstractElementFinder.AbstractGrammarEl
 		//QName
 		public RuleCall getNameQNameParserRuleCall_2_0() { return cNameQNameParserRuleCall_2_0; }
 		
-		//baseentities+=BaseEntity
+		////    importcontainer=ImportContainer
+		//    baseentities+=BaseEntity
 		public Assignment getBaseentitiesAssignment_3() { return cBaseentitiesAssignment_3; }
 		
 		//BaseEntity
@@ -102,6 +107,19 @@ public class LogDslGrammarAccess extends AbstractElementFinder.AbstractGrammarEl
 		private final Keyword cFullStopKeyword_0_1 = (Keyword)cGroup_0.eContents().get(1);
 		private final RuleCall cIDTerminalRuleCall_1 = (RuleCall)cGroup.eContents().get(1);
 		
+		////ImportContainer returns kokoworld::ImportContainer:
+		////    {
+		////        (kokoworld::ImportContainer)
+		////    (imports+=Import)*
+		////}
+		////;
+		////
+		////Import returns kokoworld::Import:
+		////    {
+		////        (kokoworld::Import)
+		////        'import' item=QName
+		////    }
+		////;
 		////-----------------------
 		////DataTypes
 		////-----------------------
@@ -237,9 +255,12 @@ public class LogDslGrammarAccess extends AbstractElementFinder.AbstractGrammarEl
 	}
 
 	
+	////import bla as kokoworld
+	////This is the start rule
 	//LogDocument returns LogDocument:
 	//    {LogDocument}
 	//    'LogPackage' name=QName
+	////    importcontainer=ImportContainer
 	//    baseentities+=BaseEntity
 	//    ;
 	public LogDocumentElements getLogDocumentAccess() {
@@ -262,6 +283,19 @@ public class LogDslGrammarAccess extends AbstractElementFinder.AbstractGrammarEl
 		return getBaseEntityAccess().getRule();
 	}
 	
+	////ImportContainer returns kokoworld::ImportContainer:
+	////    {
+	////        (kokoworld::ImportContainer)
+	////    (imports+=Import)*
+	////}
+	////;
+	////
+	////Import returns kokoworld::Import:
+	////    {
+	////        (kokoworld::Import)
+	////        'import' item=QName
+	////    }
+	////;
 	////-----------------------
 	////DataTypes
 	////-----------------------

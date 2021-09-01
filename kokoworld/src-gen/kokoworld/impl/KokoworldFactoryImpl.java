@@ -56,10 +56,10 @@ public class KokoworldFactoryImpl extends EFactoryImpl implements KokoworldFacto
 	@Override
 	public EObject create(EClass eClass) {
 		switch (eClass.getClassifierID()) {
-		case KokoworldPackage.DOCUMENT:
-			return createDocument();
-		case KokoworldPackage.BASE_ENTITY:
-			return createBaseEntity();
+		case KokoworldPackage.IMPORT_CONTAINER:
+			return createImportContainer();
+		case KokoworldPackage.IMPORT:
+			return createImport();
 		default:
 			throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
@@ -70,9 +70,9 @@ public class KokoworldFactoryImpl extends EFactoryImpl implements KokoworldFacto
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Document createDocument() {
-		DocumentImpl document = new DocumentImpl();
-		return document;
+	public ImportContainer createImportContainer() {
+		ImportContainerImpl importContainer = new ImportContainerImpl();
+		return importContainer;
 	}
 
 	/**
@@ -80,9 +80,9 @@ public class KokoworldFactoryImpl extends EFactoryImpl implements KokoworldFacto
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public BaseEntity createBaseEntity() {
-		BaseEntityImpl baseEntity = new BaseEntityImpl();
-		return baseEntity;
+	public Import createImport() {
+		ImportImpl import_ = new ImportImpl();
+		return import_;
 	}
 
 	/**

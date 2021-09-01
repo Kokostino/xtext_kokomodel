@@ -6,7 +6,6 @@ import kokoworld.kokolog.BaseEntity;
 import kokoworld.kokolog.KokologFactory;
 import kokoworld.kokolog.KokologPackage;
 import kokoworld.kokolog.LogDocument;
-
 import kokoworld.kokoworld.KokoworldPackage;
 
 import kokoworld.kokoworld.impl.KokoworldPackageImpl;

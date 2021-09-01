@@ -1,0 +1,46 @@
+/**
+ */
+package kokoworld;
+
+/**
+ * <!-- begin-user-doc -->
+ * A representation of the model object '<em><b>Member</b></em>'.
+ * <!-- end-user-doc -->
+ *
+ * <p>
+ * The following features are supported:
+ * </p>
+ * <ul>
+ *   <li>{@link kokoworld.Member#getDocument <em>Document</em>}</li>
+ * </ul>
+ *
+ * @see kokoworld.KokoworldPackage#getMember()
+ * @model abstract="true"
+ * @generated
+ */
+public interface Member extends INamedElement, IDescribable {
+	/**
+	 * Returns the value of the '<em><b>Document</b></em>' container reference.
+	 * It is bidirectional and its opposite is '{@link kokoworld.Document#getMembers <em>Members</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Document</em>' container reference.
+	 * @see #setDocument(Document)
+	 * @see kokoworld.KokoworldPackage#getMember_Document()
+	 * @see kokoworld.Document#getMembers
+	 * @model opposite="members" transient="false"
+	 * @generated
+	 */
+	Document getDocument();
+
+	/**
+	 * Sets the value of the '{@link kokoworld.Member#getDocument <em>Document</em>}' container reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Document</em>' container reference.
+	 * @see #getDocument()
+	 * @generated
+	 */
+	void setDocument(Document value);
+
+} // Member

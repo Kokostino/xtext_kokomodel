@@ -5,7 +5,6 @@
 package kokoworld.kokolog.validation;
 
 import kokoworld.kokolog.BaseEntity;
-
 import org.eclipse.emf.common.util.EList;
 
 /**

@@ -78,6 +78,24 @@ public interface KokologPackage extends EPackage {
 	int LOG_DOCUMENT__NAME = KokoworldPackage.DOCUMENT__NAME;
 
 	/**
+	 * The feature id for the '<em><b>Members</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LOG_DOCUMENT__MEMBERS = KokoworldPackage.DOCUMENT__MEMBERS;
+
+	/**
+	 * The feature id for the '<em><b>Importcontainer</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LOG_DOCUMENT__IMPORTCONTAINER = KokoworldPackage.DOCUMENT__IMPORTCONTAINER;
+
+	/**
 	 * The feature id for the '<em><b>Baseentities</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -149,7 +167,6 @@ public interface KokologPackage extends EPackage {
 	 * @ordered
 	 */
 	int BASE_ENTITY_OPERATION_COUNT = 0;
-
 
 	/**
 	 * Returns the meta object for class '{@link kokoworld.kokolog.LogDocument <em>Log Document</em>}'.

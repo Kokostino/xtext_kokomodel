@@ -22,22 +22,22 @@ public interface KokoworldFactory extends EFactory {
 	KokoworldFactory eINSTANCE = kokoworld.impl.KokoworldFactoryImpl.init();
 
 	/**
-	 * Returns a new object of class '<em>Document</em>'.
+	 * Returns a new object of class '<em>Import Container</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Document</em>'.
+	 * @return a new object of class '<em>Import Container</em>'.
 	 * @generated
 	 */
-	Document createDocument();
+	ImportContainer createImportContainer();
 
 	/**
-	 * Returns a new object of class '<em>Base Entity</em>'.
+	 * Returns a new object of class '<em>Import</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Base Entity</em>'.
+	 * @return a new object of class '<em>Import</em>'.
 	 * @generated
 	 */
-	BaseEntity createBaseEntity();
+	Import createImport();
 
 	/**
 	 * Returns the package supported by this factory.

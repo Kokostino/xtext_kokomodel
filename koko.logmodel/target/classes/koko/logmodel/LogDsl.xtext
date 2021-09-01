@@ -3,12 +3,15 @@ grammar koko.logmodel.LogDsl with org.eclipse.xtext.common.Terminals
 
 import "http://www.example.org/kokolog" 
 import "http://www.eclipse.org/emf/2002/Ecore" as ecore
+//import bla as kokoworld
 
+//This is the start rule
 LogDocument returns LogDocument:
 	{LogDocument}
 	
 	'LogPackage' name=QName
 	
+//	importcontainer=ImportContainer
 	baseentities+=BaseEntity
 	;
 
@@ -16,6 +19,20 @@ BaseEntity returns BaseEntity:
 	{BaseEntity}
 	'BaseEntity'
 	name=EString;
+
+//ImportContainer returns kokoworld::ImportContainer:
+//	{
+//		(kokoworld::ImportContainer)
+//	(imports+=Import)*
+//}
+//;
+//
+//Import returns kokoworld::Import:
+//	{
+//		(kokoworld::Import)
+//		'import' item=QName
+//	}
+//;
 
 //-----------------------
 //DataTypes

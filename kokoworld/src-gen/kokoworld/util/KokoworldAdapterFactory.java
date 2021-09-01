@@ -72,8 +72,28 @@ public class KokoworldAdapterFactory extends AdapterFactoryImpl {
 		}
 
 		@Override
-		public Adapter caseBaseEntity(BaseEntity object) {
-			return createBaseEntityAdapter();
+		public Adapter caseMember(Member object) {
+			return createMemberAdapter();
+		}
+
+		@Override
+		public Adapter caseINamedElement(INamedElement object) {
+			return createINamedElementAdapter();
+		}
+
+		@Override
+		public Adapter caseImportContainer(ImportContainer object) {
+			return createImportContainerAdapter();
+		}
+
+		@Override
+		public Adapter caseImport(Import object) {
+			return createImportAdapter();
+		}
+
+		@Override
+		public Adapter caseIDescribable(IDescribable object) {
+			return createIDescribableAdapter();
 		}
 
 		@Override
@@ -110,16 +130,72 @@ public class KokoworldAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link kokoworld.BaseEntity <em>Base Entity</em>}'.
+	 * Creates a new adapter for an object of class '{@link kokoworld.Member <em>Member</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see kokoworld.BaseEntity
+	 * @see kokoworld.Member
 	 * @generated
 	 */
-	public Adapter createBaseEntityAdapter() {
+	public Adapter createMemberAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link kokoworld.INamedElement <em>INamed Element</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see kokoworld.INamedElement
+	 * @generated
+	 */
+	public Adapter createINamedElementAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link kokoworld.ImportContainer <em>Import Container</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see kokoworld.ImportContainer
+	 * @generated
+	 */
+	public Adapter createImportContainerAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link kokoworld.Import <em>Import</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see kokoworld.Import
+	 * @generated
+	 */
+	public Adapter createImportAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link kokoworld.IDescribable <em>IDescribable</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see kokoworld.IDescribable
+	 * @generated
+	 */
+	public Adapter createIDescribableAdapter() {
 		return null;
 	}
 
