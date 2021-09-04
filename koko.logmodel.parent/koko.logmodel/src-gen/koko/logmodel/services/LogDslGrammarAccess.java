@@ -33,7 +33,6 @@ public class LogDslGrammarAccess extends AbstractElementFinder.AbstractGrammarEl
 		private final Assignment cBaseentitiesAssignment_3 = (Assignment)cGroup.eContents().get(3);
 		private final RuleCall cBaseentitiesBaseEntityParserRuleCall_3_0 = (RuleCall)cBaseentitiesAssignment_3.eContents().get(0);
 		
-		////import bla as kokoworld
 		////This is the start rule
 		//LogDocument returns LogDocument:
 		//    {LogDocument}
@@ -255,7 +254,6 @@ public class LogDslGrammarAccess extends AbstractElementFinder.AbstractGrammarEl
 	}
 
 	
-	////import bla as kokoworld
 	////This is the start rule
 	//LogDocument returns LogDocument:
 	//    {LogDocument}
